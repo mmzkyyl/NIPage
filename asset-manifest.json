@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/NIPage/static/css/main.b8104a4d.css",
-    "main.js": "/NIPage/static/js/main.de9bb1c7.js",
+    "main.js": "/NIPage/static/js/main.3b238f61.js",
     "static/media/main.jpg": "/NIPage/static/media/main.e10fec61089d6f0cbc71.jpg",
     "static/media/result.png": "/NIPage/static/media/result.00f21f0386b5ad8960b4.png",
     "static/media/team.jpg": "/NIPage/static/media/team.6bdaea65065e9e916026.jpg",
     "static/media/help.jpg": "/NIPage/static/media/help.faf7b7837c44c39e43de.jpg",
     "index.html": "/NIPage/index.html",
     "main.b8104a4d.css.map": "/NIPage/static/css/main.b8104a4d.css.map",
-    "main.de9bb1c7.js.map": "/NIPage/static/js/main.de9bb1c7.js.map"
+    "main.3b238f61.js.map": "/NIPage/static/js/main.3b238f61.js.map"
   },
   "entrypoints": [
     "static/css/main.b8104a4d.css",
-    "static/js/main.de9bb1c7.js"
+    "static/js/main.3b238f61.js"
   ]
 }
