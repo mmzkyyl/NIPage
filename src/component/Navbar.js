@@ -6,12 +6,17 @@ const Navbar = () => {
 
     const [currentPage, setCurrentPage] = useState('');
 
+    // useEffect(() => {
+    //     setCurrentPage("main");
+    // }, [])
+
     useEffect(() => {
-        const url = window.location.pathname; // 获取当前页面的 URL 路径部分
-        const parts = url.split('/'); // 将 URL 路径部分按 "/" 分割成数组
+        const hash = window.location.hash; // 获取当前页面的 URL 路径部分
+        const parts = hash.split('/'); // 将 URL 路径部分按 "/" 分割成数组
         const currentPageName = parts[parts.length - 1];
+        // alert(currentPageName);
         setCurrentPage(currentPageName);
-    }, [location.pathname]);
+    }, [location.hash]);
 
     return (
         <>
