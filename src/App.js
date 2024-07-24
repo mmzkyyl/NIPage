@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Navigate, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Navigate, Route, Routes} from "react-router-dom";
 
 import MainPage from "./page/MainPage";
 import TeamPage from "./page/TeamPage";
