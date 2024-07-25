@@ -32,7 +32,7 @@ const Navbar = () => {
                             className={`px-4 text-xl transition-colors duration-300 ease-in-out ${currentPage === 'main' ? 'text-amber-300' : 'text-white hover:text-amber-300'}`}
                             onClick={() => setCurrentPage('main')}
                         >
-                            项目概况
+                            项目简介
                         </NavLink>
                         <NavLink
                             to="/team"
