@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar";
 
-import Background from "../img/main.jpg"
+import Background from "../img/main1.jpg"
 
 const MainPage = () => {
     return (
@@ -10,6 +10,7 @@ const MainPage = () => {
             <div className="relative">
                 <img
                     src={Background}
+                    alt="Background"
                     className="flex w-full"
                     style={{height: '70vh', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)'}}
                 ></img>

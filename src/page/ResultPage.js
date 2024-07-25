@@ -10,6 +10,7 @@ const ResultPage = () => {
             <div className="relative">
                 <img
                     src={Background}
+                    alt="Background"
                     className="flex w-full"
                     style={{height: '70vh', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)'}}
                 ></img>

@@ -11,8 +11,8 @@ const Navbar = () => {
     // }, [])
 
     useEffect(() => {
-        const hash = window.location.hash; // 获取当前页面的 URL 路径部分
-        const parts = hash.split('/'); // 将 URL 路径部分按 "/" 分割成数组
+        const hash = window.location.hash;
+        const parts = hash.split('/');
         const currentPageName = parts[parts.length - 1];
         // alert(currentPageName);
         setCurrentPage(currentPageName);
