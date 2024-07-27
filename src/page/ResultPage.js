@@ -33,7 +33,7 @@ const ResultPage = () => {
                                     <div className="flex justify-center text-xl p-4">
                                         {`${thought.title}`}
                                     </div>
-                                    <div style={{textIndent: '2em'}} className="p-2">
+                                    <div style={{textIndent: '2em'}} className="p-2 leading-relaxed">
                                         {thought.memory}
                                     </div>
                                 </div>
