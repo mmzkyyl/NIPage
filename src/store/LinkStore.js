@@ -22,6 +22,18 @@ const KantLink = ['https://chatglm.cn/main/gdetail/66a0bcaf089430a13048ebe8'];
 const Hegel = ['黑格尔'];
 const HegelLink = ['https://chatglm.cn/main/gdetail/66a0bd60ae727e407c23f2a8'];
 
+const Mencius = ['孟子'];
+const MenciusLink = ['https://chatglm.cn/main/gdetail/66a366e43826ffa91ed8ca4f'];
+
+const HanFeizi = ['韩非子'];
+const HanFeiziLink = ['https://chatglm.cn/main/gdetail/66a367fac91b4fba6c701bd8'];
+
+const ChuangTzu = ['庄子'];
+const ChuangTzuLink = ['https://chatglm.cn/main/gdetail/66a368f719d06ee2a01570de'];
+
+const GuiGuzi = ['鬼谷子'];
+const GuiGuziLink = ['https://chatglm.cn/main/gdetail/66a368825174dfaae6951820'];
+
 const AllLinks = [
     { name: Confucius, link: ConfuciusLink},
     { name: LaoZi, link: LaoZiLink},
@@ -31,6 +43,10 @@ const AllLinks = [
     { name: Socrates, link: SocratesLink},
     { name: Kant, link: KantLink},
     { name: Hegel, link: HegelLink},
+    { name: Mencius, link: MenciusLink},
+    { name: HanFeizi, link: HanFeiziLink},
+    { name: ChuangTzu, link: ChuangTzuLink},
+    { name: GuiGuzi, link: GuiGuziLink},
 ]
 
 export default AllLinks;

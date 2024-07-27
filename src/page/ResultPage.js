@@ -3,6 +3,7 @@ import Navbar from "../component/Navbar";
 import Background from "../img/result.png"
 import AllThoughts from "../store/MemoryStore";
 import AllLinks from "../store/LinkStore";
+import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const ResultPage = () => {
     return (
@@ -54,6 +55,7 @@ const ResultPage = () => {
                 </div>
             </div>
 
+            <ScrollToTopButton/>
         </>
     );
 };
