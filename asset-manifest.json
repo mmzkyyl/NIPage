@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NIPage/static/css/main.e6787af6.css",
-    "main.js": "/NIPage/static/js/main.5ca9adcf.js",
+    "main.css": "/NIPage/static/css/main.18d324b5.css",
+    "main.js": "/NIPage/static/js/main.081c882d.js",
     "static/media/result.png": "/NIPage/static/media/result.00f21f0386b5ad8960b4.png",
     "static/media/main1.jpg": "/NIPage/static/media/main1.ddd6d211969e025dde7d.jpg",
     "static/media/help1.jpg": "/NIPage/static/media/help1.ceffde9e1c7691467ee3.jpg",
     "static/media/team1.jpg": "/NIPage/static/media/team1.0b83926038e0585db453.jpg",
     "index.html": "/NIPage/index.html",
-    "main.e6787af6.css.map": "/NIPage/static/css/main.e6787af6.css.map",
-    "main.5ca9adcf.js.map": "/NIPage/static/js/main.5ca9adcf.js.map"
+    "main.18d324b5.css.map": "/NIPage/static/css/main.18d324b5.css.map",
+    "main.081c882d.js.map": "/NIPage/static/js/main.081c882d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6787af6.css",
-    "static/js/main.5ca9adcf.js"
+    "static/css/main.18d324b5.css",
+    "static/js/main.081c882d.js"
   ]
 }
