@@ -1,6 +1,7 @@
 import Navbar from "../component/Navbar";
 
 import Background from "../img/team1.jpg"
+import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const TeamPage = () => {
     return (
@@ -45,6 +46,8 @@ const TeamPage = () => {
                     团队成员
                 </div>
             </div>
+
+            <ScrollToTopButton/>
         </>
     );
 };

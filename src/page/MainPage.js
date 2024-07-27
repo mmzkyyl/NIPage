@@ -1,6 +1,7 @@
 import Navbar from "../component/Navbar";
 
 import Background from "../img/main1.jpg"
+import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const MainPage = () => {
     return (
@@ -63,6 +64,8 @@ const MainPage = () => {
                     项目简介
                 </div>
             </div>
+
+            <ScrollToTopButton/>
         </>
     );
 };

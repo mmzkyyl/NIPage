@@ -48,13 +48,13 @@ const Navbar = () => {
                         >
                             成果展示
                         </NavLink>
-                        <NavLink
-                            to="/help"
-                            className={`px-4 text-xl transition-colors duration-300 ease-in-out ${currentPage === 'help' ? 'text-amber-300' : 'text-white hover:text-amber-300'}`}
-                            onClick={() => setCurrentPage('help')}
-                        >
-                            帮助说明
-                        </NavLink>
+                        {/*<NavLink*/}
+                        {/*    to="/help"*/}
+                        {/*    className={`px-4 text-xl transition-colors duration-300 ease-in-out ${currentPage === 'help' ? 'text-amber-300' : 'text-white hover:text-amber-300'}`}*/}
+                        {/*    onClick={() => setCurrentPage('help')}*/}
+                        {/*>*/}
+                        {/*    帮助说明*/}
+                        {/*</NavLink>*/}
                     </div>
                 </div>
 
