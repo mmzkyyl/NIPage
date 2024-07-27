@@ -20,49 +20,10 @@ const MainPage = () => {
                 </div>
             </div>
 
+            <div className="h-6"></div>
+
             <div className="px-12">
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
-                <div className="text-2xl p-4">
-                    项目简介
-                </div>
+
             </div>
 
             <ScrollToTopButton/>
