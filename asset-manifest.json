@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NIPage/static/css/main.97904865.css",
-    "main.js": "/NIPage/static/js/main.d78e5480.js",
+    "main.css": "/NIPage/static/css/main.76acf597.css",
+    "main.js": "/NIPage/static/js/main.66e82293.js",
     "static/media/ZhouYan.jpg": "/NIPage/static/media/ZhouYan.159fd0aecd06439fb1cb.jpg",
     "static/media/ZhuChenxi.png": "/NIPage/static/media/ZhuChenxi.608dae836e513de9a6b6.png",
     "static/media/result.png": "/NIPage/static/media/result.00f21f0386b5ad8960b4.png",
@@ -13,11 +13,11 @@
     "static/media/ZhouShengmi.jpg": "/NIPage/static/media/ZhouShengmi.3cfa98edf295358cbf61.jpg",
     "static/media/ZhouYvdong.jpg": "/NIPage/static/media/ZhouYvdong.5fb9796f939ac543faed.jpg",
     "index.html": "/NIPage/index.html",
-    "main.97904865.css.map": "/NIPage/static/css/main.97904865.css.map",
-    "main.d78e5480.js.map": "/NIPage/static/js/main.d78e5480.js.map"
+    "main.76acf597.css.map": "/NIPage/static/css/main.76acf597.css.map",
+    "main.66e82293.js.map": "/NIPage/static/js/main.66e82293.js.map"
   },
   "entrypoints": [
-    "static/css/main.97904865.css",
-    "static/js/main.d78e5480.js"
+    "static/css/main.76acf597.css",
+    "static/js/main.66e82293.js"
   ]
 }
