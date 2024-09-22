@@ -65,9 +65,14 @@ const ResultPage = () => {
                         <ul className="space-y-2">
                             {AllLinks.map((link, index) => (
                                 <li>
-                                    <a href={`${link.link}`} className="text-blue-500 hover:underline">
-                                    {`${link.name}`}
-                                    </a>
+                                    {(!ifMaster && (
+                                        <a href={`${link.link1}`} className="text-blue-500 hover:underline">
+                                            {`${link.name}`}
+                                        </a>)) || (ifMaster && (
+                                        <a href={`${link.link2}`} className="text-blue-500 hover:underline">
+                                            {`${link.name}`}
+                                        </a>))
+                                    }
                                 </li>
                             ))}
                         </ul>
