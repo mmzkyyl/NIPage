@@ -4,11 +4,11 @@ const ConfuciusLink2 = [''];
 
 const LaoZi = ['老子'];
 const LaoZiLink1 = ['https://chatglm.cn/main/gdetail/669f355290ba4972412005b9'];
-const LaoZiLink2 = [''];
+const LaoZiLink2 = ['https://chatglm.cn/main/gdetail/66efd1d33642c53ac2b272b2'];
 
 const Mo_Tse = ['墨子'];
 const Mo_TseLink1 = ['https://chatglm.cn/main/gdetail/669f3e818f6d809e7445d34e'];
-const Mo_TseLink2 = [''];
+const Mo_TseLink2 = ['https://chatglm.cn/main/gdetail/66efdcd2a57b11d92420e69b'];
 
 const Sun_Tzu = ['孙子'];
 const Sun_TzuLink1 = ['https://chatglm.cn/main/gdetail/669f40d3210692db7b622205'];
@@ -20,7 +20,7 @@ const WangYangmingLink2 = [''];
 
 const Socrates = ['苏格拉底'];
 const SocratesLink1 = ['https://chatglm.cn/main/gdetail/66a0bba9078bf55657f5a1a5'];
-const SocratesLink2 = [''];
+const SocratesLink2 = ['https://chatglm.cn/main/gdetail/66efdcd2a57b11d92420e69b'];
 
 const Kant = ['康德'];
 const KantLink1 = ['https://chatglm.cn/main/gdetail/66a0bcaf089430a13048ebe8'];
@@ -47,18 +47,25 @@ const GuiGuziLink1 = ['https://chatglm.cn/main/gdetail/66a368825174dfaae6951820'
 const GuiGuziLink2 = [''];
 
 const AllLinks = [
-    { name: Confucius, link1: ConfuciusLink1, link2: ConfuciusLink2},
-    { name: LaoZi, link1: LaoZiLink1, link2: LaoZiLink2},
-    { name: Mo_Tse, link1: Mo_TseLink1, link2: Mo_TseLink2},
-    { name: Sun_Tzu, link1: Sun_TzuLink1, link2: Sun_TzuLink2},
-    { name: WangYangming, link1: WangYangmingLink1, link2: WangYangmingLink2},
-    { name: Socrates, link1: SocratesLink1, link2: SocratesLink2},
-    { name: Kant, link1: KantLink1, link2: KantLink2},
-    { name: Hegel, link1: HegelLink1, link2: HegelLink2},
-    { name: Mencius, link1: MenciusLink1, link2: MenciusLink2},
-    { name: HanFeizi, link1: HanFeiziLink1, link2: HanFeiziLink2},
-    { name: ChuangTzu, link1: ChuangTzuLink1, link2: ChuangTzuLink2},
-    { name: GuiGuzi, link1: GuiGuziLink1, link2: GuiGuziLink2},
+    { name: Confucius, link: ConfuciusLink1, link2: ConfuciusLink2},
+    { name: LaoZi, link: LaoZiLink1, link2: LaoZiLink2},
+    { name: Mo_Tse, link: Mo_TseLink1, link2: Mo_TseLink2},
+    { name: Sun_Tzu, link: Sun_TzuLink1, link2: Sun_TzuLink2},
+    { name: WangYangming, link: WangYangmingLink1, link2: WangYangmingLink2},
+    { name: Socrates, link: SocratesLink1, link2: SocratesLink2},
+    { name: Kant, link: KantLink1, link2: KantLink2},
+    { name: Hegel, link: HegelLink1, link2: HegelLink2},
+    { name: Mencius, link: MenciusLink1, link2: MenciusLink2},
+    { name: HanFeizi, link: HanFeiziLink1, link2: HanFeiziLink2},
+    { name: ChuangTzu, link: ChuangTzuLink1, link2: ChuangTzuLink2},
+    { name: GuiGuzi, link: GuiGuziLink1, link2: GuiGuziLink2},
 ]
 
-export default AllLinks;
+const AllMasterLinks = [
+    { name: LaoZi, link: LaoZiLink2},
+    { name: Mo_Tse, link: Mo_TseLink2},
+    { name: Socrates, link: SocratesLink2},
+]
+
+export {AllLinks};
+export {AllMasterLinks};

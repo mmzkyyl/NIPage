@@ -2,7 +2,8 @@ import Navbar from "../component/Navbar";
 
 import Background from "../img/result.png"
 import AllThoughts from "../store/MemoryStore";
-import AllLinks from "../store/LinkStore";
+import {AllLinks} from "../store/LinkStore";
+import {AllMasterLinks} from "../store/LinkStore"
 import ScrollToTopButton from "../component/ScrollToTopButton";
 import {useState} from "react";
 
@@ -63,16 +64,11 @@ const ResultPage = () => {
                         </div>
 
                         <ul className="space-y-2">
-                            {AllLinks.map((link) => (
+                            {(ifMaster ? AllMasterLinks : AllLinks).map((link) => (
                                 <li>
-                                    {(!ifMaster && (
-                                        <a href={`${link.link1}`} className="text-blue-500 hover:underline">
-                                            {`${link.name}`}
-                                        </a>)) || (ifMaster && (
-                                        <a href={`${link.link2}`} className="text-blue-500 hover:underline">
-                                            {`${link.name}`}
-                                        </a>))
-                                    }
+                                    <a href={`${link.link}`} className="text-blue-500 hover:underline">
+                                        {`${link.name}`}
+                                    </a>
                                 </li>
                             ))}
                         </ul>
