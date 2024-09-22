@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/NIPage/static/css/main.76acf597.css",
-    "main.js": "/NIPage/static/js/main.b4095bd6.js",
+    "main.css": "/NIPage/static/css/main.94b00f2e.css",
+    "main.js": "/NIPage/static/js/main.c00cd014.js",
     "static/media/ZhouYan.jpg": "/NIPage/static/media/ZhouYan.159fd0aecd06439fb1cb.jpg",
     "static/media/ZhuChenxi.png": "/NIPage/static/media/ZhuChenxi.608dae836e513de9a6b6.png",
     "static/media/result.png": "/NIPage/static/media/result.00f21f0386b5ad8960b4.png",
+    "static/media/background.png": "/NIPage/static/media/background.f8ce1983524b4b9a48e0.png",
     "static/media/main1.jpg": "/NIPage/static/media/main1.ddd6d211969e025dde7d.jpg",
     "static/media/help1.jpg": "/NIPage/static/media/help1.ceffde9e1c7691467ee3.jpg",
     "static/media/ChenZhiheng.jpg": "/NIPage/static/media/ChenZhiheng.d37bef2c482ebb715054.jpg",
@@ -12,12 +13,13 @@
     "static/media/team1.jpg": "/NIPage/static/media/team1.0b83926038e0585db453.jpg",
     "static/media/ZhouShengmi.jpg": "/NIPage/static/media/ZhouShengmi.3cfa98edf295358cbf61.jpg",
     "static/media/ZhouYvdong.jpg": "/NIPage/static/media/ZhouYvdong.5fb9796f939ac543faed.jpg",
+    "static/media/projectTarget.png": "/NIPage/static/media/projectTarget.7e6d0b2f657d6dd1e032.png",
     "index.html": "/NIPage/index.html",
-    "main.76acf597.css.map": "/NIPage/static/css/main.76acf597.css.map",
-    "main.b4095bd6.js.map": "/NIPage/static/js/main.b4095bd6.js.map"
+    "main.94b00f2e.css.map": "/NIPage/static/css/main.94b00f2e.css.map",
+    "main.c00cd014.js.map": "/NIPage/static/js/main.c00cd014.js.map"
   },
   "entrypoints": [
-    "static/css/main.76acf597.css",
-    "static/js/main.b4095bd6.js"
+    "static/css/main.94b00f2e.css",
+    "static/js/main.c00cd014.js"
   ]
 }
