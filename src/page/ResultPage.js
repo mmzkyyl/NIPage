@@ -1,6 +1,7 @@
 import Navbar from "../component/Navbar";
 
 import Background from "../img/result.png"
+import AllBackground from "../img/background.png"
 import AllThoughts from "../store/MemoryStore";
 import {AllLinks} from "../store/LinkStore";
 import {AllMasterLinks} from "../store/LinkStore"
@@ -32,11 +33,22 @@ const ResultPage = () => {
 
             <div className="h-6"></div>
 
+            <div
+                className="fixed inset-0 z-0 w-full h-full"
+                style={{
+                    backgroundImage: `url(${AllBackground})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    zIndex: -1,
+                }}
+            ></div>
+
             <div className="flex">
                 <div className="px-12 mb-8 w-10/12 flex flex-col">
                     {AllThoughts.map((thought, index) => (
                         <>
-                            <div className="border-2 rounded p-2">
+                            <div className="border-2 border-gray-300 rounded p-2">
                                 <div key={index}>
                                     <div className="flex justify-center text-xl p-4">
                                         {`${thought.title}`}

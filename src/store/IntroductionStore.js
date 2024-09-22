@@ -1,3 +1,6 @@
+import Logo1 from "../img/logo/projectBackground.png"
+import Logo2 from "../img/logo/projectTarget.png"
+
 const BasicIntro = ['古代先贤的典籍思想是中华文化的瑰宝，对现代社会仍具有重要的指导意义。然而，由于语言和文化的差异，现代人在理解和研究这些经典时面临诸多障碍。为了更好地传承和发扬这些思想，我们提出构建“先贤智脑”，一个能够学习古代先贤典籍思想并回答问题的智能体。'];
 
 const ProBackgroundTitle = ['一、项目背景'];
@@ -18,8 +21,8 @@ const ProTarget = ['首先，系统将极大地提升传统文化传承的效率
 
 export const ProIntroduction = [
     { title: "", text: BasicIntro },
-    { title: ProBackgroundTitle, text: ProBackground },
-    { title: ProTargetTitle, text: ProTarget},
+    { title: ProBackgroundTitle, text: ProBackground, logo: Logo1},
+    { title: ProTargetTitle, text: ProTarget, logo: Logo2},
 ];
 
 const ProAction1 = ['典籍收集：系统地收集古代先贤的主要典籍，如《论语》、《道德经》、《庄子》等。',
