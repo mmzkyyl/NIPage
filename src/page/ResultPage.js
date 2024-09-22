@@ -63,7 +63,7 @@ const ResultPage = () => {
                         </div>
 
                         <ul className="space-y-2">
-                            {AllLinks.map((link, index) => (
+                            {AllLinks.map((link) => (
                                 <li>
                                     {(!ifMaster && (
                                         <a href={`${link.link1}`} className="text-blue-500 hover:underline">
