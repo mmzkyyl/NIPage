@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar";
+import RollingPic from "../component/RollingPic";
 
-import Background from "../img/result.png"
 import AllBackground from "../img/background.png"
 import AllThoughts from "../store/MemoryStore";
 import {AllLinks} from "../store/LinkStore";
@@ -20,13 +20,9 @@ const ResultPage = () => {
             <Navbar/>
 
             <div className="relative">
-                <img
-                    src={Background}
-                    alt="Background"
-                    className="flex w-full"
-                    style={{height: '70vh', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)'}}
-                ></img>
-                <div className="absolute bottom-0 left-0 p-16 font-blod text-black text-6xl">
+                <RollingPic/>
+
+                <div className="absolute bottom-0 left-0 p-16 font-bold text-black text-6xl">
                     成果展示
                 </div>
             </div>
@@ -51,7 +47,7 @@ const ResultPage = () => {
                             <div className="border-2 border-gray-300 rounded p-2">
                                 <div key={index}>
                                     <div className="flex justify-center text-xl p-4">
-                                        {`${thought.title}`}
+                                    {`${thought.title}`}
                                     </div>
                                     <div style={{textIndent: '2em'}} className="p-2 leading-relaxed">
                                         {thought.memory}

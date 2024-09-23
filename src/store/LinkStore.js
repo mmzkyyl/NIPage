@@ -16,11 +16,11 @@ const Sun_TzuLink2 = [''];
 
 const WangYangming = ['王阳明'];
 const WangYangmingLink1 = ['https://chatglm.cn/main/gdetail/66a0b7dc0b68c4aa23576f53'];
-const WangYangmingLink2 = [''];
+const WangYangmingLink2 = ['https://chatglm.cn/main/gdetail/66f155bad4be081b20abaaa6'];
 
 const Socrates = ['苏格拉底'];
 const SocratesLink1 = ['https://chatglm.cn/main/gdetail/66a0bba9078bf55657f5a1a5'];
-const SocratesLink2 = ['https://chatglm.cn/main/gdetail/66efdcd2a57b11d92420e69b'];
+const SocratesLink2 = ['https://chatglm.cn/main/gdetail/66efe026096be6068cb38289'];
 
 const Kant = ['康德'];
 const KantLink1 = ['https://chatglm.cn/main/gdetail/66a0bcaf089430a13048ebe8'];
@@ -28,7 +28,7 @@ const KantLink2 = [''];
 
 const Hegel = ['黑格尔'];
 const HegelLink1 = ['https://chatglm.cn/main/gdetail/66a0bd60ae727e407c23f2a8'];
-const HegelLink2 = [''];
+const HegelLink2 = ['https://chatglm.cn/main/gdetail/66f156ade4b933f80fd623df'];
 
 const Mencius = ['孟子'];
 const MenciusLink1 = ['https://chatglm.cn/main/gdetail/66a366e43826ffa91ed8ca4f'];
@@ -64,7 +64,9 @@ const AllLinks = [
 const AllMasterLinks = [
     { name: LaoZi, link: LaoZiLink2},
     { name: Mo_Tse, link: Mo_TseLink2},
+    { name: WangYangming, link: WangYangmingLink2},
     { name: Socrates, link: SocratesLink2},
+    { name: Hegel, link: HegelLink2},
 ]
 
 export {AllLinks};

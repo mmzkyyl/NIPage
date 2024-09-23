@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar";
+import RollingPic from "../component/RollingPic";
 
-import Background from "../img/main1.jpg"
 import Logo3 from "../img/logo/projectAction.png"
 import Logo4 from "../img/logo/projectInnovate.png"
 import ScrollToTopButton from "../component/ScrollToTopButton";
@@ -13,12 +13,14 @@ const MainPage = () => {
             <Navbar/>
 
             <div className="relative">
-                <img
-                    src={Background}
-                    alt="Background"
-                    className="flex w-full"
-                    style={{height: '70vh', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)'}}
-                ></img>
+                {/*<img*/}
+                {/*    src={Background}*/}
+                {/*    alt="Background"*/}
+                {/*    className="flex w-full"*/}
+                {/*    style={{height: '70vh', boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)'}}*/}
+                {/*></img>*/}
+                <RollingPic/>
+
                 <div className="absolute bottom-0 left-0 p-16 font-blod text-white text-6xl">
                     项目简介
                 </div>
@@ -40,10 +42,6 @@ const MainPage = () => {
                     className="relative before:absolute after:absolute before:inset-y-0 after:inset-y-0 before:left-0 after:right-0 before:w-0.5 after:w-0.5 before:bg-gray-200 after:bg-gray-200"
                 >
                     <div className="px-24">
-                        {/*<div style={{textIndent: '2em'}} className="text-xl font-mono">*/}
-                        {/*    {`${ProIntroduction[0].text}`}*/}
-                        {/*</div>*/}
-
                         {ProIntroduction.map((item) => (
                             <>
                                 <div className="flex items-center p-4">

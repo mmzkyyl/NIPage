@@ -1,6 +1,6 @@
 import ZhouYvdong from "../img/teamer/ZhouYvdong.jpg"
 import XueYvchen from "../img/teamer/XueYvchen.jpg"
-
+import ZhaoZiyan from "../img/teamer/ZhaoZiyan.jpg"
 import ZhuChenxi from "../img/teamer/ZhuChenxi.png"
 import ChenZhiheng from "../img/teamer/ChenZhiheng.jpg"
 import ZhouShengmi from "../img/teamer/ZhouShengmi.jpg"
@@ -9,6 +9,8 @@ import ZhouYan from "../img/teamer/ZhouYan.jpg"
 const ZhouYvdongIntro = ['武汉大学弘毅学堂数字经济试验班2022级本科生，湖北省“青马工程”第十一期学员，获武汉大学三好学生、优秀共青团员等校级荣誉十余项，曾获第十三届全国大学生电子商务“创新、创意及创业”挑战赛湖北省一等奖。'];
 
 const XueYvchenIntro = ['上海交通大学电子信息与电气工程学院自动化专业2022级本科生。参加美国大学生数学建模比赛、全国大学生电子设计大赛等大型比赛，有强烈的学术热情和创新思维。'];
+
+const ZhaoZiyanIntro = ['上海交通大学电子信息与电气工程学院软件工程专业2022级本科生。曾获社会实践团获得院级社会实践二等奖；获选23年上海交通大学电子信息与电气工程学院社会实践“先进个人”'];
 
 const ZhuChenxiIntro = ['信息管理学院编辑出版学（数字出版方向）2022级本科生。曾获得第十四届全国大学生电子商务“创新、创意及创业”挑战赛校级二等奖，武汉大学第二届信息可视化大赛二等奖，校社会实践大赛二等奖等。'];
 
@@ -21,7 +23,7 @@ const ZhouYanIntro = ['武汉大学历史学院2023级历史学类本科生，�
 const AllTeamers = [
     { img: ZhouYvdong, name:"周渝东", intro: ZhouYvdongIntro, introShort: "武汉大学弘毅学堂数字经济试验班2022级本科生" },
     { img: XueYvchen, name:"薛煜辰", intro: XueYvchenIntro, introShort: "上海交通大学电子信息与电气工程学院自动化专业2022级本科生" },
-
+    { img: ZhaoZiyan, name:"赵子彦", intro: ZhaoZiyanIntro, introShort: "上海交通大学电子信息与电气工程学院软件工程专业2022级本科生"},
     { img: ZhuChenxi, name:"朱晨曦", intro: ZhuChenxiIntro, introShort: "信息管理学院编辑出版学（数字出版方向）2022级本科生" },
     { img: ChenZhiheng, name:"陈治衡", intro: ChenZhihengIntro, introShort: "上海交通大学电子信息与电气工程学院自动化专业2022级本科生" },
     { img: ZhouShengmi, name:"周晟旻", intro: ZhouShengmiIntro, introShort: "武汉大学弘毅学堂数字经济试验班2022级本科生" },
